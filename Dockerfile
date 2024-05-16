@@ -1,6 +1,6 @@
 FROM ubuntu
 
-RUN sudo apt-get update && sudo apt-get install -y golang-go
+RUN apt-get update && apt-get install -y golang-go
 
 COPY . .
 
